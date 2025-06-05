@@ -1,0 +1,53 @@
+{%load static %}
+{% load i18n %}
+<div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+    <div class="u-layout">
+        <div class="u-layout-row">
+        <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
+            <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-1">
+            <h6 class="u-text u-text-default u-text-1">{% trans "Позвони нам" %}</h6>
+            <h6 class="u-text u-text-default u-text-2">ORC Consulting </h6>
+            <p class="u-text u-text-3">+998 93 922 90 06 </p>
+            <h6 class="u-text u-text-default u-text-4">X-zone </h6>
+            <p class="u-text u-text-5">+998 91 534 44 23<br>+998 91 547 75 76 
+            </p>
+            <h6 class="u-text u-text-default u-text-6" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{% trans "Расположение" %}</h6>
+            <p class="u-text u-text-7">{% blocktrans %}г.Самарканд<br>ул. Мирзо Улугбек 6 {% endblocktrans %}
+            </p>
+            </div>
+        </div>
+        <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-white u-layout-cell-2">
+            <div class="u-container-layout u-valign-top u-container-layout-2">
+            <h2 class="u-text u-text-default u-text-8" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">{% trans "Связаться с нами" %}</h2>
+            <div class="u-expanded-width u-form u-form-1">
+                <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="email" name="form">
+                <div class="u-form-group u-form-name">
+                    <label for="name-daf4" class="u-label">{% trans "Имя" %}</label>
+                    <input type="text" placeholder="{% trans "Введите свое имя" %}" id="name-daf4" name="name" class="u-border-none u-grey-5 u-input u-input-rectangle" required="">
+                </div>
+                <div class="u-form-email u-form-group">
+                    <label for="email-daf4" class="u-label">Email</label>
+                    <input type="email" placeholder="Enter a valid email address" id="email-daf4" name="email" class="u-border-none u-grey-5 u-input u-input-rectangle" required="">
+                </div>
+                <div class="u-form-group u-form-message">
+                    <label for="message-daf4" class="u-label">Message</label>
+                    <textarea placeholder="" rows="4" cols="50" id="message-daf4" name="message" class="u-border-none u-grey-5 u-input u-input-rectangle" required=""></textarea>
+                </div>
+                <div class="u-align-right u-form-group u-form-submit">
+                    <a href="#" class="u-active-palette-1-light-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-hover-custom-color-2 u-radius-12 u-btn-1">{% trans "Отправить" %} </a>
+                    <input type="submit" value="submit" class="u-form-control-hidden">
+                </div>
+                <div class="u-form-send-message u-form-send-success">{% trans "Спасибо! Ваше сообщение отправлено." %}</div>
+                <div class="u-form-send-error u-form-send-message">{% blocktrans %}Отправка не удалась. Пожалуйста, исправьте ошибки и попробуйте еще раз.{% endblocktrans %}</div>
+                <input type="hidden" value="" name="recaptchaResponse">
+                <input type="hidden" name="formServices" value="67fe5f7d-511c-c49b-5b84-6036ef90af38">
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+   
