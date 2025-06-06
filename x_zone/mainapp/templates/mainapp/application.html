@@ -95,7 +95,7 @@
     <section class="u-clearfix u-section-1" id="block-1">
       <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
         <div class="u-expanded-width u-form u-form-1">
-          <form method="post" action="{% url 'mainapp:feedback_footer' %}" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form-1" style="padding: 10px;">
+          <form method="post" action="{% url 'mainapp:feedback_application' %}" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form-1" style="padding: 10px;">
             {% csrf_token %} 
             <div class="u-form-group u-form-name">
               <label for="name-4586" class="u-label">{% trans "Имя" %}</label>
@@ -142,7 +142,7 @@
             <div class="u-form-group u-form-select u-form-group-11">
               <label for="select-c547" class="u-label">{% trans "Цель поездки в США" %}</label>
               <div class="u-form-select-wrapper">
-                <select id="select-c547" name="select" class="u-input u-input-rectangle">
+                <select id="select-c547" name="trip_purpose" class="u-input u-input-rectangle">
                   <option value="Туризм" data-calc="">{% trans "Туризм" %}</option>
                   <option value="В гости" data-calc="">{% trans "В гости" %}</option>
                   <option value="По работе" data-calc="">{% trans "По работе" %}</option>
