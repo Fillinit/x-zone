@@ -3,15 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: .\mainapp\templates\mainapp\index.html:115
-#: .\mainapp\templates\mainapp\index.html:121
-#: .\mainapp\templates\mainapp\index.html:127
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-05 09:58+0300\n"
+"POT-Creation-Date: 2025-06-05 16:08+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,103 +18,103 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\mainapp\templates\mainapp\application.html:7
-#: .\mainapp\templates\mainapp\footer.html:22
+#: mainapp/templates/mainapp/application.html:7
+#: mainapp/templates/mainapp/footer.html:22
 msgid "Связаться с нами"
 msgstr "Contact us"
 
-#: .\mainapp\templates\mainapp\application.html:9
+#: mainapp/templates/mainapp/application.html:9
 msgid "Заявка"
 msgstr "Application"
 
-#: .\mainapp\templates\mainapp\application.html:60
-#: .\mainapp\templates\mainapp\application.html:73
-#: .\mainapp\templates\mainapp\index.html:10
-#: .\mainapp\templates\mainapp\index.html:39
-#: .\mainapp\templates\mainapp\index.html:42
-#: .\mainapp\templates\mainapp\index.html:66
-#: .\mainapp\templates\mainapp\index.html:78
+#: mainapp/templates/mainapp/application.html:60
+#: mainapp/templates/mainapp/application.html:73
+#: mainapp/templates/mainapp/index.html:10
+#: mainapp/templates/mainapp/index.html:39
+#: mainapp/templates/mainapp/index.html:42
+#: mainapp/templates/mainapp/index.html:66
+#: mainapp/templates/mainapp/index.html:78
 msgid "Главная"
 msgstr "Home"
 
-#: .\mainapp\templates\mainapp\application.html:61
-#: .\mainapp\templates\mainapp\application.html:74
-#: .\mainapp\templates\mainapp\index.html:67
-#: .\mainapp\templates\mainapp\index.html:79
+#: mainapp/templates/mainapp/application.html:61
+#: mainapp/templates/mainapp/application.html:74
+#: mainapp/templates/mainapp/index.html:67
+#: mainapp/templates/mainapp/index.html:79
 msgid "О нас"
 msgstr "About Us"
 
-#: .\mainapp\templates\mainapp\application.html:62
-#: .\mainapp\templates\mainapp\application.html:75
-#: .\mainapp\templates\mainapp\index.html:68
-#: .\mainapp\templates\mainapp\index.html:80
+#: mainapp/templates/mainapp/application.html:62
+#: mainapp/templates/mainapp/application.html:75
+#: mainapp/templates/mainapp/index.html:68
+#: mainapp/templates/mainapp/index.html:80
 msgid "Иммиграционные услуги"
 msgstr "Immigration Services"
 
-#: .\mainapp\templates\mainapp\application.html:63
-#: .\mainapp\templates\mainapp\application.html:76
-#: .\mainapp\templates\mainapp\index.html:69
-#: .\mainapp\templates\mainapp\index.html:81
+#: mainapp/templates/mainapp/application.html:63
+#: mainapp/templates/mainapp/application.html:76
+#: mainapp/templates/mainapp/index.html:69
+#: mainapp/templates/mainapp/index.html:81
 msgid "Типы виз"
 msgstr "Visa Types"
 
-#: .\mainapp\templates\mainapp\application.html:64
-#: .\mainapp\templates\mainapp\application.html:77
-#: .\mainapp\templates\mainapp\index.html:70
-#: .\mainapp\templates\mainapp\index.html:82
+#: mainapp/templates/mainapp/application.html:64
+#: mainapp/templates/mainapp/application.html:77
+#: mainapp/templates/mainapp/index.html:70
+#: mainapp/templates/mainapp/index.html:82
 msgid "Услуги по рекламе"
 msgstr "Advertising Services"
 
-#: .\mainapp\templates\mainapp\application.html:65
-#: .\mainapp\templates\mainapp\application.html:78
-#: .\mainapp\templates\mainapp\index.html:71
-#: .\mainapp\templates\mainapp\index.html:83
+#: mainapp/templates/mainapp/application.html:65
+#: mainapp/templates/mainapp/application.html:78
+#: mainapp/templates/mainapp/index.html:71
+#: mainapp/templates/mainapp/index.html:83
 msgid "Контакты"
 msgstr "Contacts"
 
-#: .\mainapp\templates\mainapp\application.html:100
-#: .\mainapp\templates\mainapp\footer.html:26
+#: mainapp/templates/mainapp/application.html:100
+#: mainapp/templates/mainapp/footer.html:26
 msgid "Имя"
 msgstr "Name"
 
-#: .\mainapp\templates\mainapp\application.html:101
+#: mainapp/templates/mainapp/application.html:101
 msgid "Введите Ваше имя"
 msgstr "Enter your name"
 
-#: .\mainapp\templates\mainapp\application.html:104
+#: mainapp/templates/mainapp/application.html:104
 msgid "Эл. почта"
 msgstr "Email address"
 
-#: .\mainapp\templates\mainapp\application.html:105
+#: mainapp/templates/mainapp/application.html:105
 #, fuzzy
 #| msgid "Введите возраст"
 msgid "Введите email адрес"
 msgstr "Enter the age"
 
-#: .\mainapp\templates\mainapp\application.html:108
+#: mainapp/templates/mainapp/application.html:108
 msgid "Телефон"
 msgstr "Phone number"
 
-#: .\mainapp\templates\mainapp\application.html:112
+#: mainapp/templates/mainapp/application.html:112
 #, fuzzy
 #| msgid "Имя пользователя в Telegram"
 msgid "Имя пользователя в Telegram "
 msgstr "User name in Telegram"
 
-#: .\mainapp\templates\mainapp\application.html:116
+#: mainapp/templates/mainapp/application.html:116
 msgid "Введите возраст"
 msgstr "Enter the age"
 
-#: .\mainapp\templates\mainapp\application.html:122
-#: .\mainapp\templates\mainapp\application.html:123
+#: mainapp/templates/mainapp/application.html:122
+#: mainapp/templates/mainapp/application.html:123
 msgid "Гражданство"
 msgstr "Citizenship"
 
-#: .\mainapp\templates\mainapp\application.html:126
+#: mainapp/templates/mainapp/application.html:126
 msgid "Ваш аккаунт в Instagram"
 msgstr "Your Instagram account"
 
-#: .\mainapp\templates\mainapp\application.html:130
+#: mainapp/templates/mainapp/application.html:130
 msgid ""
 "Укажите вашу сферу деятельности и как долго вы работаете на текущем месте "
 "работы"
@@ -125,47 +122,47 @@ msgstr ""
 "Specify your field of activity and how long you have been working at your "
 "current place of work"
 
-#: .\mainapp\templates\mainapp\application.html:131
+#: mainapp/templates/mainapp/application.html:131
 msgid "ИП, Менеджер с 2020 года"
 msgstr "Sole Proprietor, Manager since 2020"
 
-#: .\mainapp\templates\mainapp\application.html:134
+#: mainapp/templates/mainapp/application.html:134
 msgid "Ваш примерный совокупный доход в месяц"
 msgstr "Your approximate total monthly income"
 
-#: .\mainapp\templates\mainapp\application.html:138
+#: mainapp/templates/mainapp/application.html:138
 msgid "Перечислите страны, которые вы посетили за последние 5 лет"
 msgstr "List the countries you have visited in the last 5 years"
 
-#: .\mainapp\templates\mainapp\application.html:142
+#: mainapp/templates/mainapp/application.html:142
 msgid "Цель поездки в США"
 msgstr "Purpose of the trip to the USA"
 
-#: .\mainapp\templates\mainapp\application.html:145
+#: mainapp/templates/mainapp/application.html:145
 msgid "Туризм"
 msgstr "Tourism"
 
-#: .\mainapp\templates\mainapp\application.html:146
+#: mainapp/templates/mainapp/application.html:146
 msgid "В гости"
 msgstr "For a visit"
 
-#: .\mainapp\templates\mainapp\application.html:147
+#: mainapp/templates/mainapp/application.html:147
 msgid "По работе"
 msgstr "For work"
 
-#: .\mainapp\templates\mainapp\application.html:148
+#: mainapp/templates/mainapp/application.html:148
 msgid "На лечение"
 msgstr "For treatment"
 
-#: .\mainapp\templates\mainapp\application.html:149
+#: mainapp/templates/mainapp/application.html:149
 msgid "Обучение"
 msgstr "Training"
 
-#: .\mainapp\templates\mainapp\application.html:150
+#: mainapp/templates/mainapp/application.html:150
 msgid "Другое..."
 msgstr "Other..."
 
-#: .\mainapp\templates\mainapp\application.html:156
+#: mainapp/templates/mainapp/application.html:156
 msgid ""
 "Была ли у вас ранее виза США? Если да, то укажите примерно когда и как долго "
 "там находились."
@@ -173,19 +170,19 @@ msgstr ""
 "Did you have a US visa before? If so, please indicate approximately when and "
 "how long you were there."
 
-#: .\mainapp\templates\mainapp\application.html:157
+#: mainapp/templates/mainapp/application.html:157
 msgid "был 1 раз в 2022 году"
-msgstr ""
+msgstr "was 1 time in 2022"
 
-#: .\mainapp\templates\mainapp\application.html:160
+#: mainapp/templates/mainapp/application.html:160
 msgid "С кем планируете путешествие? Есть ли у них виза США?"
 msgstr "Who are you planning a trip with? Do they have a US visa?"
 
-#: .\mainapp\templates\mainapp\application.html:161
+#: mainapp/templates/mainapp/application.html:161
 msgid "еду один"
-msgstr ""
+msgstr "I'm going alone"
 
-#: .\mainapp\templates\mainapp\application.html:164
+#: mainapp/templates/mainapp/application.html:164
 msgid ""
 "Находиться кто-то из ваших родственников или друзей в США? Если да, то "
 "примерно когда и где."
@@ -193,78 +190,82 @@ msgstr ""
 "Are any of your relatives or friends in the United States? If so, then about "
 "when and where."
 
-#: .\mainapp\templates\mainapp\application.html:165
+#: mainapp/templates/mainapp/application.html:165
 msgid "живет сестра, имеет грин-карт"
-msgstr ""
+msgstr "my sister lives there and has a green card"
 
-#: .\mainapp\templates\mainapp\application.html:168
+#: mainapp/templates/mainapp/application.html:168
 msgid "У вас были ранее отказы в визе США? Если да, то примерно когда и где?"
 msgstr ""
 "Have you previously been refused a US visa? If so, approximately when and "
 "where?"
 
-#: .\mainapp\templates\mainapp\application.html:169
+#: mainapp/templates/mainapp/application.html:169
 msgid "был один отказ, в Самарканде"
-msgstr ""
+msgstr "there was one refusal, in Samarkand"
 
-#: .\mainapp\templates\mainapp\application.html:172
+#: mainapp/templates/mainapp/application.html:172
 msgid "В каком городе сейчас проживаете?"
 msgstr "What city do you live in now?"
 
-#: .\mainapp\templates\mainapp\application.html:173
+#: mainapp/templates/mainapp/application.html:173
 msgid "Самарканд"
-msgstr ""
+msgstr "Samarkand"
 
-#: .\mainapp\templates\mainapp\application.html:176
-#: .\mainapp\templates\mainapp\footer.html:38
+#: mainapp/templates/mainapp/application.html:176
+#: mainapp/templates/mainapp/footer.html:38
 msgid "Отправить"
 msgstr "Send"
 
-#: .\mainapp\templates\mainapp\application.html:179
+#: mainapp/templates/mainapp/application.html:179
 msgid "Спасибо! Ваше сообщение отправлено. "
 msgstr "Thanks! Your message has been sent."
 
-#: .\mainapp\templates\mainapp\application.html:180
+#: mainapp/templates/mainapp/application.html:180
 msgid ""
 " Отправка не удалась. Пожалуйста, исправьте ошибки и попробуйте еще раз. "
 msgstr " The sending failed. Please fix the errors and try again. "
 
-#: .\mainapp\templates\mainapp\footer.html:9
+#: mainapp/templates/mainapp/footer.html:9
 msgid "Позвони нам"
 msgstr "Give us a call."
 
-#: .\mainapp\templates\mainapp\footer.html:15
-msgid "Расположение"
+#: mainapp/templates/mainapp/footer.html:15
+msgid "Расположение:"
 msgstr "Location"
 
-#: .\mainapp\templates\mainapp\footer.html:16
+#: mainapp/templates/mainapp/footer.html:16
 msgid "г.Самарканд<br>ул. Мирзо Улугбек 6 "
 msgstr "Samarkand city,<br> Mirzo Ulugbek street, Building 6"
 
-#: .\mainapp\templates\mainapp\footer.html:27
+#: mainapp/templates/mainapp/footer.html:27
 msgid "Введите свое имя"
 msgstr "Enter your name"
 
-#: .\mainapp\templates\mainapp\footer.html:41
+#: mainapp/templates/mainapp/footer.html:41
 msgid "Спасибо! Ваше сообщение отправлено."
 msgstr "Thanks! Your message has been sent."
 
-#: .\mainapp\templates\mainapp\footer.html:42
+#: mainapp/templates/mainapp/footer.html:42
 msgid "Отправка не удалась. Пожалуйста, исправьте ошибки и попробуйте еще раз."
 msgstr "The sending failed. Please fix the errors and try again."
 
-#: .\mainapp\templates\mainapp\index.html:8
+#: mainapp/templates/mainapp/index.html:8
 msgid ""
 "Бизнес, Мы готовы поделиться советами и опытом, Брендинговое агентство, "
 "Корпоративные программы обучения и развития сотрудников, Познакомьтесь с "
 "командой Нашими профессионалами, Отправьте свое резюме, Связаться с нами\" "
 msgstr ""
 
-#: .\mainapp\templates\mainapp\index.html:105
+#: mainapp/templates/mainapp/index.html:105
 msgid "Оценка шансов "
 msgstr "Eligibility Assessment"
 
-#: .\mainapp\templates\mainapp\index.html:116
+#: mainapp/templates/mainapp/index.html:115
+msgid "Запись в посольства"
+msgstr "Registration at embassies"
+
+#: mainapp/templates/mainapp/index.html:116
 msgid ""
 " Планируете подать документы в посольство? Поможем записаться быстро, без "
 "очередей и лишних хлопот! Надёжно, удобно и с полным сопровождением."
@@ -273,7 +274,11 @@ msgstr ""
 "appointment quickly, without queues or unnecessary hassle! Reliable, "
 "convenient, and with full support throughout the process."
 
-#: .\mainapp\templates\mainapp\index.html:122
+#: mainapp/templates/mainapp/index.html:121
+msgid "Заполнение анкет"
+msgstr "Filling out questionnaires"
+
+#: mainapp/templates/mainapp/index.html:122
 msgid ""
 " К этой задаче максимально пунктуально и тщательно подходят наши аудиторы, "
 "на периодической основе проверяют и анализируют документы  наших клиентов, "
@@ -283,7 +288,11 @@ msgstr ""
 "detail. They regularly review and analyze client documents, providing "
 "recommendations that help minimize the risk of errors."
 
-#: .\mainapp\templates\mainapp\index.html:128
+#: mainapp/templates/mainapp/index.html:127
+msgid "Получение визы"
+msgstr "Obtaining a visa"
+
+#: mainapp/templates/mainapp/index.html:128
 msgid ""
 "В числе задач наших менеджеров, например, можно выделить получение визы, "
 "проведение полного комплекса регистрационных услуг."
@@ -291,11 +300,11 @@ msgstr ""
 "Among the responsibilities of our managers is assisting with visa issuance "
 "and providing a full range of registration services."
 
-#: .\mainapp\templates\mainapp\index.html:142
+#: mainapp/templates/mainapp/index.html:142
 msgid "Иммиграционные услуги X Zona"
 msgstr "Immigration Services – X Zona"
 
-#: .\mainapp\templates\mainapp\index.html:148
+#: mainapp/templates/mainapp/index.html:148
 msgid ""
 "Добро пожаловать в ZONA X — ваш надежный партнер в вопросах иммиграции и "
 "брендинга. Мы предоставляем услуги как для тех, кто хочет выехать за "
@@ -309,35 +318,35 @@ msgstr ""
 "strengthen your brand’s presence in the market, our professional team is "
 "ready to assist!"
 
-#: .\mainapp\templates\mainapp\index.html:168
+#: mainapp/templates/mainapp/index.html:168
 msgid "НАШИ ПРЕИМУЩЕСТВА"
 msgstr "OUR ADVANTAGES"
 
-#: .\mainapp\templates\mainapp\index.html:170
+#: mainapp/templates/mainapp/index.html:170
 msgid "Проф​ессион​​альные знания и опыт"
 msgstr "Professional knowledge and experience"
 
-#: .\mainapp\templates\mainapp\index.html:172
+#: mainapp/templates/mainapp/index.html:172
 msgid "Индивидуальный подход"
 msgstr "Individual approach"
 
-#: .\mainapp\templates\mainapp\index.html:174
+#: mainapp/templates/mainapp/index.html:174
 msgid "Обновленная информация"
 msgstr "Up-to-date information"
 
-#: .\mainapp\templates\mainapp\index.html:176
+#: mainapp/templates/mainapp/index.html:176
 msgid "Конфиденциальность и безопасность"
 msgstr "Confidentiality and security"
 
-#: .\mainapp\templates\mainapp\index.html:178
+#: mainapp/templates/mainapp/index.html:178
 msgid "Поддержка на всех этапах"
 msgstr "Support at every stage"
 
-#: .\mainapp\templates\mainapp\index.html:191
+#: mainapp/templates/mainapp/index.html:191
 msgid " ЭТАПЫ ПОЛУЧЕНИЯ ВИЗЫ В США"
 msgstr " STAGES OF OBTAINING A U.S. VISA"
 
-#: .\mainapp\templates\mainapp\index.html:192
+#: mainapp/templates/mainapp/index.html:192
 msgid ""
 "Вы приcылаете нам свои документы и производите оплату&nbsp;<br><span "
 "style=\"font-weight: 400;\">Можно отправить документы <br>– по email: "
@@ -347,7 +356,7 @@ msgstr ""
 "weight: 400;\">You can send your documents via: <br>– Email: info@samarkand-"
 "zakovat.com "
 
-#: .\mainapp\templates\mainapp\index.html:196
+#: mainapp/templates/mainapp/index.html:196
 msgid ""
 "Мы создаем/переносим личный кабинет, оплачиваем консульский сбор "
 "<br>Выполняем запись на собеседование в посольство США<br><span style=\"font-"
@@ -361,7 +370,7 @@ msgstr ""
 "<br>– via Telegram <br>Appointments are made in order of submission and "
 "according to the availability of open slots."
 
-#: .\mainapp\templates\mainapp\index.html:199
+#: mainapp/templates/mainapp/index.html:199
 msgid ""
 "Мы консультируем  Вас для удачного прохождения собеседования <br><span "
 "style=\"font-weight: 400;\">Подготовка проводится в формате личного приезда "
@@ -371,7 +380,7 @@ msgstr ""
 "400;\">Preparation is conducted either in person at our office or via an "
 "audio call."
 
-#: .\mainapp\templates\mainapp\index.html:202
+#: mainapp/templates/mainapp/index.html:202
 msgid ""
 "Вы в&nbsp;назначенный день проходите собеседование в посольстве США<br><span "
 "style=\"font-weight: 400;\">Забираете свой заграничный паспорт "
@@ -380,15 +389,15 @@ msgstr ""
 "style=\"font-weight: 400;\">You collect your international passport "
 "afterward."
 
-#: .\mainapp\templates\mainapp\index.html:215
+#: mainapp/templates/mainapp/index.html:215
 msgid "ТИПЫ ВИЗ"
 msgstr "Visa Types"
 
-#: .\mainapp\templates\mainapp\index.html:222
+#: mainapp/templates/mainapp/index.html:222
 msgid "ТУРИСТИЧЕСКАЯ B1/B2"
 msgstr "TOURIST VISA B1/B2"
 
-#: .\mainapp\templates\mainapp\index.html:223
+#: mainapp/templates/mainapp/index.html:223
 msgid ""
 " виза для деловых и туристических поездок B-1/B-2 предназначена для "
 "временного пребывания в США с деловыми целями (B-1) или туризма (B-2). В "
@@ -399,11 +408,11 @@ msgstr ""
 "This type belongs to the tourist category and allows for multiple entries "
 "into the USA."
 
-#: .\mainapp\templates\mainapp\index.html:229
+#: mainapp/templates/mainapp/index.html:229
 msgid "ГОСТЕВАЯ"
 msgstr "VISITOR VISA"
 
-#: .\mainapp\templates\mainapp\index.html:230
+#: mainapp/templates/mainapp/index.html:230
 msgid ""
 " виза с целью посещения родственников, друзей и родных, выдается на "
 "основание приглашения от принимающей стороны, относится к туристической и "
@@ -413,11 +422,11 @@ msgstr ""
 "issued based on an invitation from the host party. It belongs to the tourist "
 "visa category and permits multiple entries into the USA."
 
-#: .\mainapp\templates\mainapp\index.html:236
+#: mainapp/templates/mainapp/index.html:236
 msgid "МЕДИЦИНСКАЯ"
 msgstr "MEDICAL VISA"
 
-#: .\mainapp\templates\mainapp\index.html:237
+#: mainapp/templates/mainapp/index.html:237
 msgid ""
 " виза для получения медицинской помощи (B-2), категория относится также к "
 "туристической и дает возможность мультивъезда в США "
@@ -425,11 +434,11 @@ msgstr ""
 "A visa (B-2) for receiving medical treatment. This category is also "
 "considered a tourist visa and allows for multiple entries into the USA."
 
-#: .\mainapp\templates\mainapp\index.html:243
+#: mainapp/templates/mainapp/index.html:243
 msgid "СТУДЕНЧЕСКАЯ F"
 msgstr "STUDENT VISA (F)"
 
-#: .\mainapp\templates\mainapp\index.html:244
+#: mainapp/templates/mainapp/index.html:244
 msgid ""
 " виза (F) предназначена для студентов, которые зачислены в колледж или "
 "университет, или же направляющиеся для изучения английского языка в рамках "
@@ -442,61 +451,66 @@ msgstr ""
 "to the USA as a tourist but plan to study less than 18 hours per week, you "
 "may enter on a B-2 tourist visa."
 
-#: .\mainapp\templates\mainapp\index.html:272
+#: mainapp/templates/mainapp/index.html:272
 msgid " Мы готовы поделиться советами и опытом"
-msgstr ""
+msgstr "We are ready to share advice and experience"
 
-#: .\mainapp\templates\mainapp\index.html:273
+#: mainapp/templates/mainapp/index.html:273
 msgid ""
 " Все, что может понадобиться для создания и управления новыми проектами "
 "(стартапами) в современных условиях."
 msgstr ""
+"Everything you might need to create and manage new projects (startups) in "
+"today's environment."
 
-#: .\mainapp\templates\mainapp\index.html:278
+#: mainapp/templates/mainapp/index.html:278
 msgid "Оставить заявку"
-msgstr ""
+msgstr "Leave a request"
 
-#: .\mainapp\templates\mainapp\index.html:289
+#: mainapp/templates/mainapp/index.html:289
 msgid "УСЛУГИ ПО РЕКЛАМЕ"
-msgstr ""
+msgstr "ADVERTISING SERVICES"
 
-#: .\mainapp\templates\mainapp\index.html:294
+#: mainapp/templates/mainapp/index.html:294
 msgid "Разработка рекламных кампаний и стратегий"
-msgstr ""
+msgstr "Development of advertising campaigns and strategies"
 
-#: .\mainapp\templates\mainapp\index.html:299
+#: mainapp/templates/mainapp/index.html:299
 msgid ""
 "SEO и SMM продвижение. Нахождение оптимальной стратегии для продвижения "
 "внутри сетей"
 msgstr ""
+"SEO and SMM promotion. Finding the optimal strategy for promotion within "
+"networks"
 
-#: .\mainapp\templates\mainapp\index.html:304
+#: mainapp/templates/mainapp/index.html:304
 msgid "Дизайн и создание веб-сайтов"
-msgstr ""
+msgstr "Website design and creation"
 
-#: .\mainapp\templates\mainapp\index.html:309
+#: mainapp/templates/mainapp/index.html:309
 msgid "Кризисный PR и управление репутацией"
-msgstr ""
+msgstr "Crisis PR and Reputation Management"
 
-#: .\mainapp\templates\mainapp\index.html:314
+#: mainapp/templates/mainapp/index.html:314
 msgid "Видеомаркетинг и создание роликов."
-msgstr ""
+msgstr "Video marketing and video creation."
 
-#: .\mainapp\templates\mainapp\index.html:319
+#: mainapp/templates/mainapp/index.html:319
 msgid "Разработка технического задания"
-msgstr ""
+msgstr "Development of technical specifications"
 
-#: .\mainapp\templates\mainapp\index.html:324
+#: mainapp/templates/mainapp/index.html:324
 msgid "Разработка оптимальной маркетинг структуры"
-msgstr ""
+msgstr "Developing an optimal marketing structure"
 
-#: .\mainapp\templates\mainapp\index.html:329
+#: mainapp/templates/mainapp/index.html:329
 msgid "Рост продаж и узнаваемости"
-msgstr ""
+msgstr "Increased sales and awareness"
 
-#: .\mainapp\templates\mainapp\index.html:334
+#: mainapp/templates/mainapp/index.html:334
 msgid "Создание имиджа и бренда с нуля для любой компании и деятельности&nbsp;"
 msgstr ""
+"Creating an image and brand from scratch for any company and activity&nbsp;"
 
 #~ msgid "Мы, живя элегантно, делаем ставни, чтобы развлечь аппетит."
 #~ msgstr "Living elegantly, we make shutters to entertain our appetites."

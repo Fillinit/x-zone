@@ -9,8 +9,8 @@
     <title>{% trans "Заявка" %}  </title>
     <link rel="stylesheet" href="{% static 'css/nicepage.css'%}" media="screen">
 <link rel="stylesheet" href="{% static 'css/application.css'%}" media="screen">
-    <script class="u-script" type="text/javascript" src="{% static 'js/jquery.js'%}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js'%}" defer=""></script>
+    {% comment %} <script class="u-script" type="text/javascript" src="{% static 'js/jquery.js'%}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js'%}" defer=""></script> {% endcomment %}
     <meta name="generator" content="Nicepage 7.9.4, nicepage.com">
     <meta name="referrer" content="origin">
     
@@ -95,7 +95,8 @@
     <section class="u-clearfix u-section-1" id="block-1">
       <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
         <div class="u-expanded-width u-form u-form-1">
-          <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form-1" style="padding: 10px;">
+          <form method="post" action="{% url 'mainapp:feedback_footer' %}" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form-1" style="padding: 10px;">
+            {% csrf_token %} 
             <div class="u-form-group u-form-name">
               <label for="name-4586" class="u-label">{% trans "Имя" %}</label>
               <input type="text" placeholder="{% trans "Введите Ваше имя" %}" id="name-4586" name="name" class="u-input u-input-rectangle" required="">
@@ -110,33 +111,33 @@
             </div>
             <div class="u-form-group u-form-group-4">
               <label for="text-3f04" class="u-label">{% trans "Имя пользователя в Telegram " %}</label>
-              <input type="text" placeholder="@example​" id="text-3f04" name="@example​" class="u-input u-input-rectangle">
+              <input type="text" placeholder="@example​" id="text-3f04" name="telegram" class="u-input u-input-rectangle">
             </div>
             <div class="u-form-group u-form-number u-form-number-layout-number u-form-group-5">
               <label for="number-8e56" class="u-label">{% trans "Введите возраст" %}</label>
               <div class="u-input-row" data-value="0">
-                <input value="0" min="0" max="100" step="1" type="number" placeholder="" id="number-8e56" name="number" class="u-input u-input-rectangle u-text-black">
+                <input value="0" min="0" max="100" step="1" type="number" placeholder="" id="number-8e56" name="age" class="u-input u-input-rectangle u-text-black">
               </div>
             </div>
             <div class="u-form-group u-form-group-6">
               <label for="text-0bb5" class="u-label">{% trans "Гражданство" %}</label>
-              <input type="text" placeholder="{% trans "Гражданство" %}" id="text-0bb5" name="text" class="u-input u-input-rectangle">
+              <input type="text" placeholder="{% trans "Гражданство" %}" id="text-0bb5" name="nation" class="u-input u-input-rectangle">
             </div>
             <div class="u-form-group u-form-group-7">
               <label for="text-e439" class="u-label">{% trans "Ваш аккаунт в Instagram" %}</label>
-              <input type="text" placeholder="example" id="text-e439" name="text-1" class="u-input u-input-rectangle">
+              <input type="text" placeholder="example" id="text-e439" name="inst" class="u-input u-input-rectangle">
             </div>
             <div class="u-form-group u-form-group-8">
               <label for="text-43c2" class="u-label">{% blocktrans %}Укажите вашу сферу деятельности и как долго вы работаете на текущем месте работы{% endblocktrans %}</label>
-              <input type="text" placeholder="{% trans "ИП, Менеджер с 2020 года" %}" id="text-43c2" name="text-2" class="u-input u-input-rectangle">
+              <input type="text" placeholder="{% trans "ИП, Менеджер с 2020 года" %}" id="text-43c2" name="work" class="u-input u-input-rectangle">
             </div>
             <div class="u-form-group u-form-group-9">
               <label for="text-1f7a" class="u-label">{% blocktrans %}Ваш примерный совокупный доход в месяц{% endblocktrans %}</label>
-              <input type="text" placeholder="" id="text-1f7a" name="text-3" class="u-input u-input-rectangle">
+              <input type="text" placeholder="" id="text-1f7a" name="money" class="u-input u-input-rectangle">
             </div>
             <div class="u-form-group u-form-group-10">
               <label for="text-2d92" class="u-label">{% blocktrans %}Перечислите страны, которые вы посетили за последние 5 лет{% endblocktrans %}</label>
-              <input type="text" placeholder="" id="text-2d92" name="text-4" class="u-input u-input-rectangle">
+              <input type="text" placeholder="" id="text-2d92" name="countries" class="u-input u-input-rectangle">
             </div>
             <div class="u-form-group u-form-select u-form-group-11">
               <label for="select-c547" class="u-label">{% trans "Цель поездки в США" %}</label>
@@ -154,32 +155,29 @@
             </div>
             <div class="u-form-group u-form-textarea u-form-group-12">
               <label for="textarea-1874" class="u-label">{% blocktrans %}Была ли у вас ранее виза США? Если да, то укажите примерно когда и как долго там находились.{% endblocktrans %}</label>
-              <textarea rows="4" cols="50" id="textarea-1874" name="textarea" class="u-input u-input-rectangle" required="" placeholder="{% trans "был 1 раз в 2022 году" %}"></textarea>
+              <textarea rows="4" cols="50" id="textarea-1874" name="visa" class="u-input u-input-rectangle" required="" placeholder="{% trans "был 1 раз в 2022 году" %}"></textarea>
             </div>
             <div class="u-form-group u-form-textarea u-form-group-13">
               <label for="textarea-8c7a" class="u-label">{% blocktrans %}С кем планируете путешествие? Есть ли у них виза США?{% endblocktrans %}</label>
-              <textarea rows="4" cols="50" id="textarea-8c7a" name="textarea-1" class="u-input u-input-rectangle" required="" placeholder="{% trans "еду один" %}"></textarea>
+              <textarea rows="4" cols="50" id="textarea-8c7a" name="count_people" class="u-input u-input-rectangle" required="" placeholder="{% trans "еду один" %}"></textarea>
             </div>
             <div class="u-form-group u-form-textarea u-form-group-14">
               <label for="textarea-ae8c" class="u-label">{% blocktrans %}Находиться кто-то из ваших родственников или друзей в США? Если да, то примерно когда и где.{% endblocktrans %}</label>
-              <textarea rows="4" cols="50" id="textarea-ae8c" name="textarea-2" class="u-input u-input-rectangle" required="" placeholder="{% trans "живет сестра, имеет грин-карт" %}"></textarea>
+              <textarea rows="4" cols="50" id="textarea-ae8c" name="relatives" class="u-input u-input-rectangle" required="" placeholder="{% trans "живет сестра, имеет грин-карт" %}"></textarea>
             </div>
             <div class="u-form-group u-form-textarea u-form-group-15">
               <label for="textarea-1d7c" class="u-label">{% blocktrans %}У вас были ранее отказы в визе США? Если да, то примерно когда и где?{% endblocktrans %}</label>
-              <textarea rows="4" cols="50" id="textarea-1d7c" name="textarea-3" class="u-input u-input-rectangle" required="" placeholder="{% trans "был один отказ, в Самарканде" %}"></textarea>
+              <textarea rows="4" cols="50" id="textarea-1d7c" name="refusals" class="u-input u-input-rectangle" required="" placeholder="{% trans "был один отказ, в Самарканде" %}"></textarea>
             </div>
             <div class="u-form-group u-form-group-16">
               <label for="text-5fe8" class="u-label">{% trans "В каком городе сейчас проживаете?" %}</label>
-              <input type="text" placeholder="{% trans "Самарканд" %}" id="text-5fe8" name="text-5" class="u-input u-input-rectangle">
+              <input type="text" placeholder="{% trans "Самарканд" %}" id="text-5fe8" name="my_city" class="u-input u-input-rectangle">
             </div>
             <div class="u-align-left u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-submit u-button-style">{% trans "Отправить" %}</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
+              <button type="submit" class="u-btn u-btn-submit u-button-styl">
+                {% trans "Отправить" %}
+              </button>
             </div>
-            <div class="u-form-send-message u-form-send-success">{% trans "Спасибо! Ваше сообщение отправлено. " %}</div>
-            <div class="u-form-send-error u-form-send-message">{% blocktrans %} Отправка не удалась. Пожалуйста, исправьте ошибки и попробуйте еще раз. {% endblocktrans %}</div>
-            <input type="hidden" value="" name="recaptchaResponse">
-            <input type="hidden" name="formServices" value="67fe5f7d-511c-c49b-5b84-6036ef90af38">
           </form>
         </div>
       </div>
