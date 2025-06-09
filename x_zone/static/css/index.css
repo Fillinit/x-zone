@@ -1,3 +1,13 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/MaskGroup.png');
 }
@@ -35,13 +45,21 @@
 @media (max-width: 1199px) {
    .u-section-1 {
     background-position: 50% 50%;
-    background-size: 140%;
+    background-size: 200%;
   }
 
   .u-section-1 .u-sheet-1 {
     min-height: 773px;
   }
 }
+@media (max-width: 1024px) {
+  .u-header .u-nav-1 {
+   
+    font-size: 0.6rem;
+  }
+ }
+
+
 
 @media (max-width: 991px) {
    .u-section-1 {
@@ -1988,7 +2006,34 @@
 }
 
 
-.u-container-style:hover > .u-container-layout{
+.u-list-item-1:hover > .u-container-layout-2{
+  color: #ffffff !important;
+}
+.u-list-item-2:hover > .u-container-layout-3{
+  color: #ffffff !important;
+}
+.u-list-item-3:hover > .u-container-layout-4{
+  color: #ffffff !important;
+}
+.u-list-item-4:hover > .u-container-layout-5{
+  color: #ffffff !important;
+}
+.u-list-item-5:hover > .u-container-layout-6{
+  color: #ffffff !important;
+}
+.u-list-item-6:hover > .u-container-layout-7{
+  color: #ffffff !important;
+}
+.u-list-item-7:hover > .u-container-layout-8{
+  color: #ffffff !important;
+}
+.u-list-item-8:hover > .u-container-layout-9{
+  color: #ffffff !important;
+}
+.u-list-item-9:hover > .u-container-layout-10{
+  color: #ffffff !important;
+}
+.u-list-item-10:hover > .u-container-layout-11{
   color: #ffffff !important;
 }
 /* 
@@ -2296,11 +2341,4 @@
     width: auto;
     font-size: 2.25rem;
   }
-}
-
-.page-home .u-footer {
-  background: #fff;
-}
-.page-second .u-footer {
-  background: #000;
 }
