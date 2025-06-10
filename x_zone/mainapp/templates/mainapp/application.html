@@ -205,5 +205,30 @@
     <section class="u-clearfix u-image u-shading u-section-2" id="carousel_af44" data-image-width="720" data-image-height="1080">
         {% include 'mainapp/footer.html' %}
     </section> 
-  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const menu = $('#7f01'); // Контейнер меню
+            const overlay = $('.u-menu-overlay'); // Задний фон (затемнение)
+
+            // Открытие меню по клику на бургер
+            $('.u-hamburger-link').on('click', function(e) {
+                e.preventDefault();
+                menu.addClass('u-nav-open');
+                overlay.addClass('u-nav-overlay-show');
+            });
+
+            // Закрытие меню по клику на крестик или фон
+            $('.u-menu-close, .u-menu-overlay').on('click', function() {
+                menu.removeClass('u-nav-open');
+                overlay.removeClass('u-nav-overlay-show');
+            });
+
+            // (дополнительно) Закрытие при клике на пункт меню
+            $('.u-nav-container-collapse a.u-nav-link').on('click', function() {
+                menu.removeClass('u-nav-open');
+                overlay.removeClass('u-nav-overlay-show');
+            });
+        });
+    </script>  
 </body></html>
