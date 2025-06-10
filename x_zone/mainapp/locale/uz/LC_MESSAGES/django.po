@@ -262,7 +262,7 @@ msgstr ""
 
 #: mainapp/templates/mainapp/index.html:105
 msgid "Оценка шансов "
-msgstr "Imkoniyatlaringizni baholash"
+msgstr "Imkon baholash"
 
 #: mainapp/templates/mainapp/index.html:115
 msgid "Запись в посольства"
