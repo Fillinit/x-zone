@@ -1,8 +1,8 @@
 
 
-
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/MaskGroup.png');
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/MaskGroup.png');
+     background-position: 100% 100% !important;
  }
 
  .u-section-1 .u-sheet-1 {
@@ -10,13 +10,13 @@
  }
 
  .u-section-1 .u-image-1 {
-     width: 368px;
-     height: 215px;
-     margin: 100px auto 0;
+     width: 290px;
+     height: auto;
+     margin: 50px auto 0;
  }
 
  .u-section-1 .u-text-1 {
-     font-size: 6rem;
+     font-size: 5rem;
      margin: -15px auto 0;
  }
 
@@ -540,7 +540,7 @@
 
  .u-section-4 .u-image-2 {
      min-height: 433px;
-  background-image: url("../images/pexels-michaela-295826.jpg");
+     background-image: url("images/pexels-michaela-295826.jpg");
      background-position: 50% 50%;
  }
 
@@ -1461,7 +1461,7 @@
 
  .u-section-7 {
      background-repeat: no-repeat;
-  background-image: url("../images/Group41.png");
+     background-image: url("images/Group41.png");
  }
 
  .u-section-7 .u-sheet-1 {
@@ -2180,7 +2180,7 @@
 }  */
 
  .u-section-8 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/pexels-photo-9392381.jpeg');
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/pexels-photo-9392381.jpeg');
      background-position: 50% 50%;
  }
 
