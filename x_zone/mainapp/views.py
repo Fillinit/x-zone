@@ -50,6 +50,11 @@ def feedback_footer(request):
             bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message, parse_mode='HTML')
         except Exception as e: return redirect(request.META.get('HTTP_REFERER', '/'))
         
+        try:
+            send_mail(subject=subject, message=message, from_email=from_email, 
+                      recipient_list=[recipient], fail_silently=False)
+        except Exception as e: return redirect(request.META.get('HTTP_REFERER', '/'))
+        
         messages.success(request, "Спасибо! Ваше сообщение отправлено.")
         return redirect(request.META.get('HTTP_REFERER', '/'))
     
@@ -109,6 +114,11 @@ def feedback_application(request):
         try:
             bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message, parse_mode='HTML')
         except Exception as e: return redirect('mainapp:index') 
+        
+        try:
+            send_mail(subject=subject, message=message, from_email=from_email, 
+                      recipient_list=[recipient], fail_silently=False)
+        except Exception as e: return redirect(request.META.get('HTTP_REFERER', '/'))
             
         return redirect('mainapp:index') 
 
