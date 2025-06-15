@@ -1,4 +1,6 @@
-import telebot
+import os, telebot
+from pathlib import Path
+from dotenv import load_dotenv
 from .models import *
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
@@ -9,10 +11,12 @@ from django.utils import translation
 from django.urls import translate_url
 from django.conf import settings
 
+load_dotenv(dotenv_path=Path(__file__).resolve().parent / '.env')
 
 
-TELEGRAM_BOT_TOKEN = '7445289117:AAEda8GqhWqa8enFFPBgal9dl8wdYvcnms8'
-TELEGRAM_CHAT_ID = '-1002550303976'
+
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
