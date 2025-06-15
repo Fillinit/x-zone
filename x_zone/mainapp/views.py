@@ -11,6 +11,7 @@ from django.utils import translation
 from django.urls import translate_url
 from django.conf import settings
 
+print("Path: ", Path(__file__).resolve().parent)
 load_dotenv(dotenv_path=Path(__file__).resolve().parent / '.env')
 
 
